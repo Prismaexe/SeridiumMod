@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seridiumod:agmerite_block"
+    }
+  ],
+  "result": {
+    "item": "seridiumod:agmerite_ingot",
+    "count": 9
+  }
+}

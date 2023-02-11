@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "agmerite_head",
+    "enableBody": true,
+    "textureBody": "agmerite_body",
+    "enableLeggings": true,
+    "textureLeggings": "agmerite_leggings",
+    "enableBoots": true,
+    "textureBoots": "agmerite_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Seridium"
+    },
+    "armorTextureFile": "agmerite",
+    "helmetName": "Agmerite Helmet",
+    "bodyName": "Agmerite Chestplate",
+    "leggingsName": "Agmerite Leggings",
+    "bootsName": "Agmerite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 19,
+    "damageValueHelmet": 4,
+    "damageValueBody": 11,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 4,
+    "enchantability": 20,
+    "toughness": 3.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      }
+    ]
+  }
+}

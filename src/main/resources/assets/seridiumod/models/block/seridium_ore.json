@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seridiumod:blocks/seridium_ore",
+    "up": "seridiumod:blocks/seridium_ore",
+    "north": "seridiumod:blocks/seridium_ore",
+    "east": "seridiumod:blocks/seridium_ore",
+    "south": "seridiumod:blocks/seridium_ore",
+    "west": "seridiumod:blocks/seridium_ore",
+    "particle": "seridiumod:blocks/seridium_ore"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "agmerite_axe",
+    "customModelName": "Normal",
+    "name": "Agmerite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Seridium"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 12.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

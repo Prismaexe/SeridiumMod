@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "seridiumtools_sword",
+    "customModelName": "Normal",
+    "name": "SeridiumTools Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Seridium"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 7,
+    "efficiency": 14.0,
+    "attackSpeed": 2.0,
+    "enchantability": 25,
+    "damageVsEntity": 11.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SeridiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

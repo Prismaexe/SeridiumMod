@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "seridiumod:blocks/agmerite_ore",
+    "particle": "seridiumod:blocks/agmerite_ore"
+  }
+}

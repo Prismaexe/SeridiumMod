@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      },
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AgmeriteArmor.boots"
+    },
+    "name": "agmerite_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

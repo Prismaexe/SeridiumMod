@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "agmerite_hoe",
+    "customModelName": "Normal",
+    "name": "Agmerite Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Seridium"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 20,
+    "damageVsEntity": 2.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AgmeriteIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
