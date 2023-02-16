@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      },
+      {
+        "value": "CUSTOM:FragmentDiamond"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.DIAMOND"
+    },
+    "name": "fragment_craft_diamond",
+    "namespace": "mod"
+  }
+}

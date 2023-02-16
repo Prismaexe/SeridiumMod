@@ -1,0 +1,42 @@
+{
+  "group": "fragment",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "1": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "2": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "3": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "4": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "5": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "6": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "7": {
+      "item": "seridiumod:fragment_iron"
+    },
+    "8": {
+      "item": "seridiumod:fragment_iron"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_ingot",
+    "count": 1
+  }
+}

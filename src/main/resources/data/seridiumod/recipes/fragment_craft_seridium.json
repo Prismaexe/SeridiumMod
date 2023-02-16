@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "1": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "2": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "3": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "4": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "5": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "6": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "7": {
+      "item": "seridiumod:fragment_seridium"
+    },
+    "8": {
+      "item": "seridiumod:fragment_seridium"
+    }
+  },
+  "result": {
+    "item": "seridiumod:seridium_ingot",
+    "count": 1
+  }
+}

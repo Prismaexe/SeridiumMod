@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seridiumod:blocks/agmerite_ore_block",
+    "up": "seridiumod:blocks/agmerite_ore_block",
+    "north": "seridiumod:blocks/agmerite_ore_block",
+    "east": "seridiumod:blocks/agmerite_ore_block",
+    "south": "seridiumod:blocks/agmerite_ore_block",
+    "west": "seridiumod:blocks/agmerite_ore_block",
+    "particle": "seridiumod:blocks/agmerite_ore_block"
+  }
+}

@@ -29,7 +29,7 @@ public class SeridiumToolsShovelItem extends SeridiumodModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 14f;
+				return 15f;
 			}
 
 			public float getAttackDamage() {

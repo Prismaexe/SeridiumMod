@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "1": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "2": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "3": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "4": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "5": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "6": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "7": {
+      "item": "seridiumod:fragment_gold"
+    },
+    "8": {
+      "item": "seridiumod:fragment_gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

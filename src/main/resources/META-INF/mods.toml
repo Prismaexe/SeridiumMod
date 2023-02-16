@@ -19,4 +19,10 @@ authors="jeanb, MCreator"
 
 
 
+[[dependencies.seridiumod]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

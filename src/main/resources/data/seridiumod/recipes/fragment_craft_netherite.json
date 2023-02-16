@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "1": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "2": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "3": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "4": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "5": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "6": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "7": {
+      "item": "seridiumod:fragment_netherite"
+    },
+    "8": {
+      "item": "seridiumod:fragment_netherite"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 1
+  }
+}

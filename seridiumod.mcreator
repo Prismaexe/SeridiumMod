@@ -365,27 +365,398 @@
       "registry_name": "agmerite_armor_boots_recipe"
     },
     {
-      "name": "OverlayM",
-      "type": "overlay",
+      "name": "SeridiumBag",
+      "type": "item",
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "overlay_m"
+      "registry_name": "seridium_bag"
     },
     {
-      "name": "GUIM",
-      "type": "gui",
+      "name": "SeridiumPleinLesPoches",
+      "type": "achievement",
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guim"
+      "registry_name": "seridium_plein_les_poches"
+    },
+    {
+      "name": "SeridiumBagG",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seridium_bag_g"
+    },
+    {
+      "name": "AgmeriteBag",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agmerite_bag"
+    },
+    {
+      "name": "AgmeriteBagGUI",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agmerite_bag_gui"
+    },
+    {
+      "name": "NoNameBag",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_name_bag"
+    },
+    {
+      "name": "NoNameBagGUI",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_name_bag_gui"
+    },
+    {
+      "name": "VigneUpdateTick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vigne",
+      "type": "plant",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne"
+    },
+    {
+      "name": "VigneF",
+      "type": "plant",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne_f"
+    },
+    {
+      "name": "VigneBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grape",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape"
+    },
+    {
+      "name": "VigneFPlantRightClicked",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne_f_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VigneFPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vigne_f_plant_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FragmentIron",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_iron"
+    },
+    {
+      "name": "FragmentGold",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_gold"
+    },
+    {
+      "name": "FragmentDiamond",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_diamond"
+    },
+    {
+      "name": "FragmentNetherite",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_netherite"
+    },
+    {
+      "name": "FragmentAgmerite",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_agmerite"
+    },
+    {
+      "name": "FragmentNoName",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_no_name"
+    },
+    {
+      "name": "FragmentSeridium",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_seridium"
+    },
+    {
+      "name": "PrismaTotem",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prisma_totem"
+    },
+    {
+      "name": "ChicoTotem",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chico_totem"
+    },
+    {
+      "name": "CobbleFinderUpdateTick",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_finder_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CobbleFinder",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_finder"
+    },
+    {
+      "name": "CobbleFinderGui",
+      "type": "gui",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_finder_gui"
+    },
+    {
+      "name": "FragmentCraftIron",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_iron"
+    },
+    {
+      "name": "FragmentCraftGold",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_gold"
+    },
+    {
+      "name": "FragmentCraftDiamond",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_diamond"
+    },
+    {
+      "name": "FragmentCraftNetherite",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_netherite"
+    },
+    {
+      "name": "FragmentCraftAgmerite",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_agmerite"
+    },
+    {
+      "name": "FragmentCraftNoName",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_no_name"
+    },
+    {
+      "name": "FragmentCraftSeridium",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fragment_craft_seridium"
+    },
+    {
+      "name": "Snail",
+      "type": "livingentity",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail"
+    },
+    {
+      "name": "SnailModel",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail_model",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.seridiumod.fragment_netherite": "Fragment Netherite",
+      "block.seridiumod.cobble_finder": "Cobble Finder",
       "item.seridiumod.seridium_tools_axe": "SeridiumTools Axe",
+      "item.seridiumod.fragment_agmerite": "Fragment Agmerite",
+      "item.seridiumod.fragment_seridium": "Fragment Seridium",
       "item.seridiumod.agmerite_pickaxe": "Agmerite Pickaxe",
       "item.seridiumod.agmerite_armor_chestplate": "Agmerite Chestplate",
       "item.seridiumod.seridium_tools_shovel": "SeridiumTools Shovel",
@@ -393,23 +764,39 @@
       "item.seridiumod.seridium_armor_helmet": "Seridium Helmet",
       "block.seridiumod.seridium_block": "Seridium Block",
       "item.seridiumod.agmerite_armor_boots": "Agmerite Boots",
+      "item.seridiumod.grape": "Grape",
+      "block.seridiumod.vigne_f": "Vigne",
       "item.seridiumod.seridium_armor_leggings": "Seridium Leggings",
       "item.seridiumod.seridium_tools_pickaxe": "Seridium Pickaxe",
       "item.seridiumod.seridium_armor_boots": "Seridium Boots",
       "block.seridiumod.seridium_ore": "Seridium Ore",
       "item.seridiumod.agmerite_hoe": "Agmerite Hoe",
+      "item.seridiumod.fragment_gold": "Fragment Gold",
+      "item.seridiumod.fragment_no_name": "Fragment No Name",
       "item.seridiumod.agmerite_shovel": "Agmerite Shovel",
+      "block.seridiumod.vigne": "Vigne",
       "block.seridiumod.agmerite_ore": "Agmerite Ore",
       "item.seridiumod.agmerite_armor_helmet": "Agmerite Helmet",
+      "item.seridiumod.no_name_bag": "Amanium Bag",
       "itemGroup.tabseridium": "Seridium",
+      "item.seridiumod.agmerite_bag": "Agmerite Bag",
       "item.seridiumod.seridium_ingot": "Seridium Ingot",
       "block.seridiumod.agmerite_block": "Block of Agmerite",
+      "item.seridiumod.chico_totem": "Chico Totem",
       "item.seridiumod.agmerite_axe": "Agmerite Axe",
+      "item.seridiumod.seridium_bag": "Seridium Bag",
+      "item.seridiumod.snail_spawn_egg": "Snail Spawn Egg",
+      "item.seridiumod.fragment_iron": "Fragment Iron",
+      "item.seridiumod.fragment_diamond": "Fragment Diamond",
       "item.seridiumod.agmerite_ingot": "Agmerite",
       "item.seridiumod.seridium_tools_hoe": "SeridiumTools Hoe",
       "item.seridiumod.agmerite_armor_leggings": "Agmerite Leggings",
       "item.seridiumod.seridium_tools_sword": "SeridiumTools Sword",
-      "item.seridiumod.agmerite_sword": "Agmerite Sword"
+      "item.seridiumod.agmerite_sword": "Agmerite Sword",
+      "advancements.seridium_plein_les_poches.title": "Seridium Plein Les Poches",
+      "item.seridiumod.prisma_totem": "Prisma Totem",
+      "entity.seridiumod.snail": "Snail",
+      "advancements.seridium_plein_les_poches.descr": "Le seridium minerai phare du serveur"
     }
   },
   "foldersRoot": {
@@ -428,7 +815,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "fr.chicodouille.seridium",

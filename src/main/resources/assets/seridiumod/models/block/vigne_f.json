@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "seridiumod:blocks/vigne_state_final",
+    "particle": "seridiumod:blocks/vigne_state_final"
+  }
+}

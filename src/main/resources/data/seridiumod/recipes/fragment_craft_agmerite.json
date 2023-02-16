@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "1": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "2": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "3": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "4": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "5": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "6": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "7": {
+      "item": "seridiumod:fragment_agmerite"
+    },
+    "8": {
+      "item": "seridiumod:fragment_agmerite"
+    }
+  },
+  "result": {
+    "item": "seridiumod:agmerite_ingot",
+    "count": 1
+  }
+}
