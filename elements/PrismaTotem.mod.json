@@ -8,7 +8,7 @@
     "name": "Prisma Totem",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Seridium"
     },
     "stackSize": 64,
     "enchantability": 0,

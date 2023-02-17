@@ -12,12 +12,12 @@ import fr.chicodouille.seridium.itemgroup.SeridiumItemGroup;
 import fr.chicodouille.seridium.SeridiumodModElements;
 
 @SeridiumodModElements.ModElement.Tag
-public class PrismaTotemItem extends SeridiumodModElements.ModElement {
-	@ObjectHolder("seridiumod:prisma_totem")
+public class BottleOfSnailSlimeItem extends SeridiumodModElements.ModElement {
+	@ObjectHolder("seridiumod:bottle_of_snail_slime")
 	public static final Item block = null;
 
-	public PrismaTotemItem(SeridiumodModElements instance) {
-		super(instance, 70);
+	public BottleOfSnailSlimeItem(SeridiumodModElements instance) {
+		super(instance, 83);
 	}
 
 	@Override
@@ -27,8 +27,8 @@ public class PrismaTotemItem extends SeridiumodModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SeridiumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("prisma_totem");
+			super(new Item.Properties().group(SeridiumItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
+			setRegistryName("bottle_of_snail_slime");
 		}
 
 		@Override

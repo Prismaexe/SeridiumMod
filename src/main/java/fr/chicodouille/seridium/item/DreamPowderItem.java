@@ -12,12 +12,12 @@ import fr.chicodouille.seridium.itemgroup.SeridiumItemGroup;
 import fr.chicodouille.seridium.SeridiumodModElements;
 
 @SeridiumodModElements.ModElement.Tag
-public class PrismaTotemItem extends SeridiumodModElements.ModElement {
-	@ObjectHolder("seridiumod:prisma_totem")
+public class DreamPowderItem extends SeridiumodModElements.ModElement {
+	@ObjectHolder("seridiumod:dream_powder")
 	public static final Item block = null;
 
-	public PrismaTotemItem(SeridiumodModElements instance) {
-		super(instance, 70);
+	public DreamPowderItem(SeridiumodModElements instance) {
+		super(instance, 86);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class PrismaTotemItem extends SeridiumodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(SeridiumItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("prisma_totem");
+			setRegistryName("dream_powder");
 		}
 
 		@Override

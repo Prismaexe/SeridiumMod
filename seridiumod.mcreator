@@ -746,15 +746,102 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "BottleOfSnailSlime",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_of_snail_slime"
+    },
+    {
+      "name": "DreamStick",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stick"
+    },
+    {
+      "name": "DreamStickRightclicked",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stick_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamPowder",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_powder"
+    },
+    {
+      "name": "DreamStickRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_stick_recipe"
+    },
+    {
+      "name": "Brush",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brush"
+    },
+    {
+      "name": "BrushRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brush_recipe"
+    },
+    {
+      "name": "AdventureStickRightclicked",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_stick_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdventureStick",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_stick"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.seridiumod.fragment_netherite": "Fragment Netherite",
       "block.seridiumod.cobble_finder": "Cobble Finder",
-      "item.seridiumod.seridium_tools_axe": "SeridiumTools Axe",
+      "item.seridiumod.adventure_stick": "Adventure Stick",
       "item.seridiumod.fragment_agmerite": "Fragment Agmerite",
       "item.seridiumod.fragment_seridium": "Fragment Seridium",
       "item.seridiumod.agmerite_pickaxe": "Agmerite Pickaxe",
@@ -763,39 +850,45 @@
       "item.seridiumod.seridium_armor_chestplate": "Seridium Chestplate",
       "item.seridiumod.seridium_armor_helmet": "Seridium Helmet",
       "block.seridiumod.seridium_block": "Seridium Block",
-      "item.seridiumod.agmerite_armor_boots": "Agmerite Boots",
       "item.seridiumod.grape": "Grape",
-      "block.seridiumod.vigne_f": "Vigne",
-      "item.seridiumod.seridium_armor_leggings": "Seridium Leggings",
-      "item.seridiumod.seridium_tools_pickaxe": "Seridium Pickaxe",
       "item.seridiumod.seridium_armor_boots": "Seridium Boots",
+      "item.seridiumod.dream_stick": "Dream Stick",
       "block.seridiumod.seridium_ore": "Seridium Ore",
-      "item.seridiumod.agmerite_hoe": "Agmerite Hoe",
       "item.seridiumod.fragment_gold": "Fragment Gold",
-      "item.seridiumod.fragment_no_name": "Fragment No Name",
+      "item.seridiumod.agmerite_hoe": "Agmerite Hoe",
       "item.seridiumod.agmerite_shovel": "Agmerite Shovel",
+      "item.seridiumod.dream_powder": "Dream Powder",
       "block.seridiumod.vigne": "Vigne",
-      "block.seridiumod.agmerite_ore": "Agmerite Ore",
-      "item.seridiumod.agmerite_armor_helmet": "Agmerite Helmet",
-      "item.seridiumod.no_name_bag": "Amanium Bag",
-      "itemGroup.tabseridium": "Seridium",
-      "item.seridiumod.agmerite_bag": "Agmerite Bag",
       "item.seridiumod.seridium_ingot": "Seridium Ingot",
-      "block.seridiumod.agmerite_block": "Block of Agmerite",
-      "item.seridiumod.chico_totem": "Chico Totem",
-      "item.seridiumod.agmerite_axe": "Agmerite Axe",
       "item.seridiumod.seridium_bag": "Seridium Bag",
       "item.seridiumod.snail_spawn_egg": "Snail Spawn Egg",
       "item.seridiumod.fragment_iron": "Fragment Iron",
       "item.seridiumod.fragment_diamond": "Fragment Diamond",
       "item.seridiumod.agmerite_ingot": "Agmerite",
+      "advancements.seridium_plein_les_poches.title": "Seridium Plein Les Poches",
+      "item.seridiumod.prisma_totem": "Prisma Totem",
+      "entity.seridiumod.snail": "Snail",
+      "item.seridiumod.fragment_netherite": "Fragment Netherite",
+      "item.seridiumod.seridium_tools_axe": "SeridiumTools Axe",
+      "item.seridiumod.agmerite_armor_boots": "Agmerite Boots",
+      "block.seridiumod.vigne_f": "Vigne",
+      "item.seridiumod.seridium_armor_leggings": "Seridium Leggings",
+      "item.seridiumod.seridium_tools_pickaxe": "Seridium Pickaxe",
+      "item.seridiumod.brush": "Brush",
+      "item.seridiumod.fragment_no_name": "Fragment No Name",
+      "block.seridiumod.agmerite_ore": "Agmerite Ore",
+      "item.seridiumod.agmerite_armor_helmet": "Agmerite Helmet",
+      "item.seridiumod.no_name_bag": "Amanium Bag",
+      "itemGroup.tabseridium": "Seridium",
+      "item.seridiumod.agmerite_bag": "Agmerite Bag",
+      "block.seridiumod.agmerite_block": "Block of Agmerite",
+      "item.seridiumod.chico_totem": "Chico Totem",
+      "item.seridiumod.agmerite_axe": "Agmerite Axe",
+      "item.seridiumod.bottle_of_snail_slime": "Bottle Of Snail Slime",
       "item.seridiumod.seridium_tools_hoe": "SeridiumTools Hoe",
       "item.seridiumod.agmerite_armor_leggings": "Agmerite Leggings",
       "item.seridiumod.seridium_tools_sword": "SeridiumTools Sword",
       "item.seridiumod.agmerite_sword": "Agmerite Sword",
-      "advancements.seridium_plein_les_poches.title": "Seridium Plein Les Poches",
-      "item.seridiumod.prisma_totem": "Prisma Totem",
-      "entity.seridiumod.snail": "Snail",
       "advancements.seridium_plein_les_poches.descr": "Le seridium minerai phare du serveur"
     }
   },

@@ -2,9 +2,9 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "agmerite_ore_block",
+    "texture": "cobblefinder_top",
     "textureTop": "",
-    "textureLeft": "",
+    "textureLeft": "cobblefinder_slide",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",

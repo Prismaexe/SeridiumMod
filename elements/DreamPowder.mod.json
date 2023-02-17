@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "fragment_netherite",
+    "texture": "DreamPowder",
     "customModelName": "Normal",
-    "name": "Fragment Netherite",
+    "name": "Dream Powder",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Seridium"
