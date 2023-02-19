@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seridiumod:blocks/maceratoir_slide",
+    "up": "seridiumod:blocks/maceratoir_slide",
+    "north": "seridiumod:blocks/maceratoir_slide",
+    "east": "seridiumod:blocks/maceratoir_slide",
+    "south": "seridiumod:blocks/maceratoir_slide",
+    "west": "seridiumod:blocks/maceratoir_slide",
+    "particle": "seridiumod:blocks/maceratoir_slide"
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridiumtools_sword",
+    "texture": "seridium_sword",
     "customModelName": "Normal",
     "name": "SeridiumTools Sword",
     "specialInfo": [],

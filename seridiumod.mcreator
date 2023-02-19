@@ -775,6 +775,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -823,6 +827,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -834,6 +842,109 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "adventure_stick"
+    },
+    {
+      "name": "Bottle",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle"
+    },
+    {
+      "name": "BottleRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_recipe"
+    },
+    {
+      "name": "WineBottle",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_bottle"
+    },
+    {
+      "name": "RandomOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RandomOre",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_ore"
+    },
+    {
+      "name": "Parchemin",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parchemin"
+    },
+    {
+      "name": "ParcheminSmelt",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parchemin_smelt"
+    },
+    {
+      "name": "MaceratorUpdateTick",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macerator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Macerator",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macerator"
+    },
+    {
+      "name": "MaceratorGUI",
+      "type": "gui",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macerator_gui"
     }
   ],
   "variable_elements": [],
@@ -851,6 +962,7 @@
       "item.seridiumod.seridium_armor_helmet": "Seridium Helmet",
       "block.seridiumod.seridium_block": "Seridium Block",
       "item.seridiumod.grape": "Grape",
+      "item.seridiumod.bottle": "Bottle",
       "item.seridiumod.seridium_armor_boots": "Seridium Boots",
       "item.seridiumod.dream_stick": "Dream Stick",
       "block.seridiumod.seridium_ore": "Seridium Ore",
@@ -862,12 +974,16 @@
       "item.seridiumod.seridium_ingot": "Seridium Ingot",
       "item.seridiumod.seridium_bag": "Seridium Bag",
       "item.seridiumod.snail_spawn_egg": "Snail Spawn Egg",
+      "item.seridiumod.wine_bottle": "Wine Bottle",
       "item.seridiumod.fragment_iron": "Fragment Iron",
       "item.seridiumod.fragment_diamond": "Fragment Diamond",
       "item.seridiumod.agmerite_ingot": "Agmerite",
+      "item.seridiumod.parchemin_smelt": "Parchemin Smelt",
+      "block.seridiumod.macerator": "Macerator",
       "advancements.seridium_plein_les_poches.title": "Seridium Plein Les Poches",
       "item.seridiumod.prisma_totem": "Prisma Totem",
       "entity.seridiumod.snail": "Snail",
+      "block.seridiumod.random_ore": "Random Ore",
       "item.seridiumod.fragment_netherite": "Fragment Netherite",
       "item.seridiumod.seridium_tools_axe": "SeridiumTools Axe",
       "item.seridiumod.agmerite_armor_boots": "Agmerite Boots",
@@ -889,6 +1005,7 @@
       "item.seridiumod.agmerite_armor_leggings": "Agmerite Leggings",
       "item.seridiumod.seridium_tools_sword": "SeridiumTools Sword",
       "item.seridiumod.agmerite_sword": "Agmerite Sword",
+      "item.seridiumod.parchemin": "Parchemin",
       "advancements.seridium_plein_les_poches.descr": "Le seridium minerai phare du serveur"
     }
   },

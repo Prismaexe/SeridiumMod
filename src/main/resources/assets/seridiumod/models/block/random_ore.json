@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "seridiumod:blocks/random_ore",
+    "up": "seridiumod:blocks/random_ore",
+    "north": "seridiumod:blocks/random_ore",
+    "east": "seridiumod:blocks/random_ore",
+    "south": "seridiumod:blocks/random_ore",
+    "west": "seridiumod:blocks/random_ore",
+    "particle": "seridiumod:blocks/random_ore"
+  }
+}

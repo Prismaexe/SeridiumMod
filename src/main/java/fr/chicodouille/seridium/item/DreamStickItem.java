@@ -49,8 +49,9 @@ public class DreamStickItem extends SeridiumodModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 
-				DreamStickRightclickedProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+				DreamStickRightclickedProcedure.executeProcedure(
+						Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
+								.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 				return retval;
 			}
 		}.setRegistryName("dream_stick"));

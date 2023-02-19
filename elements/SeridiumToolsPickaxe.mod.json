@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridiumtools_pickaxe",
+    "texture": "seridium_pickaxe",
     "customModelName": "Normal",
     "name": "Seridium Pickaxe",
     "specialInfo": [],

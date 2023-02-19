@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "cobblefinder_slide",
-    "textureTop": "cobblefinder_top",
-    "textureLeft": "cobblefinder_slide",
-    "textureFront": "cobblefinder_slide",
-    "textureRight": "cobblefinder_slide",
-    "textureBack": "cobblefinder_slide",
+    "texture": "random_ore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Cobble Finder",
+    "name": "Random Ore",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -56,7 +56,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 100,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -106,25 +106,15 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "CobbleFinderGui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 8,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
-    ],
-    "inventoryInSlotIDs": [
-      0
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -133,8 +123,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "CobbleFinderUpdateTick"
+    "onDestroyedByPlayer": {
+      "name": "RandomOreBlockDestroyedByPlayer"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

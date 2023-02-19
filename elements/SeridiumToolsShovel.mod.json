@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridiumtools_shovel",
+    "texture": "seridium_shovel",
     "customModelName": "Normal",
     "name": "SeridiumTools Shovel",
     "specialInfo": [],

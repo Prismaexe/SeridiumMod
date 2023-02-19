@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridiumtools_hoe",
+    "texture": "seridium_hoe",
     "customModelName": "Normal",
     "name": "SeridiumTools Hoe",
     "specialInfo": [],

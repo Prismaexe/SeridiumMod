@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "seridiumod:blocks/cobblefinder_top",
+    "down": "seridiumod:blocks/cobblefinder_slide",
     "up": "seridiumod:blocks/cobblefinder_top",
-    "north": "seridiumod:blocks/cobblefinder_top",
+    "north": "seridiumod:blocks/cobblefinder_slide",
     "east": "seridiumod:blocks/cobblefinder_slide",
-    "south": "seridiumod:blocks/cobblefinder_top",
-    "west": "seridiumod:blocks/cobblefinder_top",
-    "particle": "seridiumod:blocks/cobblefinder_top"
+    "south": "seridiumod:blocks/cobblefinder_slide",
+    "west": "seridiumod:blocks/cobblefinder_slide",
+    "particle": "seridiumod:blocks/cobblefinder_slide"
   }
 }

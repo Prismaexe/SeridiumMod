@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "seridiumtools_axe",
+    "texture": "seridium_axe",
     "customModelName": "Normal",
     "name": "SeridiumTools Axe",
     "specialInfo": [],
