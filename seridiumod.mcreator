@@ -988,6 +988,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "adventure_stick_recipe"
+    },
+    {
+      "name": "HeartOfTheForestRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_the_forest_recipe"
     }
   ],
   "variable_elements": [],

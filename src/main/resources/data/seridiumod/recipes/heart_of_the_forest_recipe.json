@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_leaves"
+    },
+    "1": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "2": {
+      "item": "minecraft:oak_leaves"
+    },
+    "3": {
+      "tag": "minecraft:saplings"
+    },
+    "4": {
+      "item": "minecraft:grass_block"
+    },
+    "5": {
+      "tag": "minecraft:saplings"
+    },
+    "6": {
+      "item": "minecraft:oak_leaves"
+    },
+    "7": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "8": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "seridiumod:heart_of_the_forest",
+    "count": 1
+  }
+}
