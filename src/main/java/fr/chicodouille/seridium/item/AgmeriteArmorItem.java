@@ -38,7 +38,7 @@ public class AgmeriteArmorItem extends SeridiumodModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 19;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			@Override

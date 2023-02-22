@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "chico",
+    "customModelName": "Normal",
+    "name": "Seridium Fishing Rod",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Seridium"
+    },
+    "toolType": "Fishing rod",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 24,
+    "damageVsEntity": 4.0,
+    "usageCount": 1500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SeridiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

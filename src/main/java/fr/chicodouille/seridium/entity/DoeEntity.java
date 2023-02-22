@@ -42,7 +42,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 
 import fr.chicodouille.seridium.itemgroup.SeridiumItemGroup;
@@ -93,7 +92,7 @@ public class DoeEntity extends SeridiumodModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends CreatureEntity implements IAnimatable {
+	public static class CustomEntity extends MonsterEntity implements IAnimatable {
 		private AnimationFactory factory = new AnimationFactory(this);
 		public String animationprocedure = "empty";
 		private boolean swinging;
@@ -108,12 +107,6 @@ public class DoeEntity extends SeridiumodModElements.ModElement {
 			this.ignoreFrustumCheck = true;
 			experienceValue = 0;
 			setNoAI(false);
-		}
-
-		@Override
-		public void livingTick() {
-			super.livingTick();
-			this.updateArmSwingProgress();
 		}
 
 		@Override

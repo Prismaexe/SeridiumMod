@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "seridiumod:blocks/opale_ore",
+    "particle": "seridiumod:blocks/opale_ore"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "seridiumod:opale_ingot"
+    },
+    "2": {
+      "item": "seridiumod:opale_ingot"
+    },
+    "3": {
+      "item": "seridiumod:opale_ingot"
+    },
+    "5": {
+      "item": "seridiumod:opale_ingot"
+    }
+  },
+  "result": {
+    "item": "seridiumod:opale_armor_boots",
+    "count": 1
+  }
+}

@@ -47,7 +47,7 @@ public class SeridiumToolsAxeItem extends SeridiumodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SeridiumIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(SeridiumItemGroup.tab)) {
+		}, 1, -2.7999999999999998f, new Item.Properties().group(SeridiumItemGroup.tab)) {
 		}.setRegistryName("seridium_tools_axe"));
 	}
 }

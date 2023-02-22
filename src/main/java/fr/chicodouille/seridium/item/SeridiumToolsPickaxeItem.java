@@ -47,7 +47,7 @@ public class SeridiumToolsPickaxeItem extends SeridiumodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SeridiumIngotItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(SeridiumItemGroup.tab)) {
+		}, 1, -2.5999999999999999f, new Item.Properties().group(SeridiumItemGroup.tab)) {
 		}.setRegistryName("seridium_tools_pickaxe"));
 	}
 }

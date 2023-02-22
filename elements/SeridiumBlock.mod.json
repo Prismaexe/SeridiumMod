@@ -35,8 +35,8 @@
     ],
     "name": "Seridium Block",
     "specialInfo": [],
-    "hardness": 50.0,
-    "resistance": 2500.0,
+    "hardness": 15.0,
+    "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

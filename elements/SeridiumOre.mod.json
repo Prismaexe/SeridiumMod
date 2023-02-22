@@ -35,8 +35,8 @@
     ],
     "name": "Seridium Ore",
     "specialInfo": [],
-    "hardness": 40.0,
-    "resistance": 1500.0,
+    "hardness": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

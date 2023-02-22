@@ -37,7 +37,7 @@ public class SeridiumBlockBlock extends SeridiumodModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(50f, 2500f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(15f, 30f).setLightLevel(s -> 0));
 			setRegistryName("seridium_block");
 		}
 

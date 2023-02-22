@@ -47,7 +47,7 @@ public class SeridiumToolsShovelItem extends SeridiumodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SeridiumIngotItem.block));
 			}
-		}, 1, -2.7999999999999998f, new Item.Properties().group(SeridiumItemGroup.tab)) {
+		}, 1, -2.5999999999999999f, new Item.Properties().group(SeridiumItemGroup.tab)) {
 		}.setRegistryName("seridium_tools_shovel"));
 	}
 }

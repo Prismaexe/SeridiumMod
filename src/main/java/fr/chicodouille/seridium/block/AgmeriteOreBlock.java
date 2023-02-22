@@ -116,8 +116,8 @@ public class AgmeriteOreBlock extends SeridiumodModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(25)
-					.square().func_242731_b(5);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(35)
+					.square().func_242731_b(6);
 			event.getRegistry().register(feature.setRegistryName("agmerite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("seridiumod:agmerite_ore"), configuredFeature);
 		}

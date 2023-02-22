@@ -47,7 +47,7 @@ public class SeridiumToolsHoeItem extends SeridiumodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SeridiumIngotItem.block));
 			}
-		}, 0, -2.8f, new Item.Properties().group(SeridiumItemGroup.tab)) {
+		}, 0, -3f, new Item.Properties().group(SeridiumItemGroup.tab)) {
 		}.setRegistryName("seridium_tools_hoe"));
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seridiumod:opale_block"
+    }
+  ],
+  "result": {
+    "item": "seridiumod:opale_ingot",
+    "count": 9
+  }
+}
